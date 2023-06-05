@@ -12,9 +12,9 @@ This is a backend of Contacts application based on Spring Boot that provides a R
 #API Endpoints (Controllers) -
 
 1.Retrieve All Contacts
->Endpoint: /api/contact/getAll
->Description: Retrieves all existing contacts.
->Response Body:json
+Endpoint: /api/contact/getAll
+Description: Retrieves all existing contacts.
+Response Body:json
 [
     {
         "id": 1,
@@ -49,9 +49,9 @@ This is a backend of Contacts application based on Spring Boot that provides a R
 ]
 
 2.Filter Contacts by Postal Code
->Endpoint: /api/contact?postalCode=22222
->Description: Retrieves contacts filtered by the given postal code.
->Response Body:json
+Endpoint: /api/contact?postalCode=22222
+Description: Retrieves contacts filtered by the given postal code.
+Response Body:json
 [
     {
         "id": 2,
@@ -76,9 +76,9 @@ This is a backend of Contacts application based on Spring Boot that provides a R
 ]
 
 3.Create a New Contact
->Endpoint: /api/contact/create
->Description: Creates a new contact with the provided details.
->Request Body:json
+Endpoint: /api/contact/create
+Description: Creates a new contact with the provided details.
+Request Body:json
 {
     "name": "mark zukerburg",
     "dob": "07-FEB-1970",
@@ -88,7 +88,7 @@ This is a backend of Contacts application based on Spring Boot that provides a R
     }
 }
 
->Response Body:json
+Response Body:json
 {
     "id": 2,
     "name": "mark zukerburg",
